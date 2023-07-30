@@ -1,0 +1,14 @@
+.index {
+  &-header {
+    height: 767px;
+    background-image: url(../images/home-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &-intro {
+    span {
+      font-size: 83px;
+    }
+  }
+}

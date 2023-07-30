@@ -1,0 +1,11 @@
+.button {
+  padding: 6px 12px;
+  font-size: $h4;
+  font-weight: 500;
+  background-color: $primary;
+  color: $light;
+
+  &:hover {
+    background-color: $primary-900;
+  }
+}
