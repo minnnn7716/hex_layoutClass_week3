@@ -1,17 +1,19 @@
 // width
-$width-pc:     1296px;
-$width-pad:    992px;
+$width-pc: 1296px;
+$width-pad: 992px;
 $width-mobile: 767px;
 
 // color
 $primary-100: #FBF2F2;
-$primary:     #AA0601;
+$primary: #AA0601;
 $primary-900: #650300;
-$dark:        #000000;
-$light:       #ffffff;
+$gray: #707070;
+$dark: #000000;
+$light: #ffffff;
 
 // font-family
-$font-tc: 'Noto Sans TC', sans-serif;;
+$font-tc: 'Noto Sans TC', sans-serif;
+;
 $font-en: 'Roboto', sans-serif;
 
 // font-size
@@ -28,16 +30,12 @@ $fz-1: 16px;
 $fz-2: 14px;
 
 // spacing
-$spacing-1:  4px;
-$spacing-2:  8px;
-$spacing-3:  12px;
-$spacing-4:  16px;
-$spacing-6:  24px;
-$spacing-8:  32px;
+$spacing-1: 4px;
+$spacing-2: 8px;
+$spacing-3: 12px;
+$spacing-4: 16px;
+$spacing-6: 24px;
+$spacing-8: 32px;
 $spacing-10: 40px;
 $spacing-12: 48px;
 $spacing-20: 80px;
-
-
-
-

@@ -1,11 +1,19 @@
 .button {
-  padding: 6px 12px;
-  font-size: $h4;
   font-weight: 500;
   background-color: $primary;
   color: $light;
 
   &:hover {
-    background-color: $primary-900;
+    background-color: darken($primary, 10%);
+  }
+
+  &-normal {
+    padding: 6px 12px;
+  }
+
+  &-full {
+    width: 100%;
+    padding: 16px 32px;
+
   }
 }

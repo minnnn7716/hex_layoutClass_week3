@@ -1,4 +1,9 @@
-// ---------- flex
+// ---------- display
+.d-none {
+  display: none;
+}
+
+// flex
 .d-flex {
   display: flex;
 }
@@ -27,7 +32,25 @@
   justify-content: space-between;
 }
 
+@include pad {
+  .flex-p-column {
+    flex-direction: column;
+  }
+
+  .align-p-center {
+    align-items: center;
+  }
+}
+
 @include mobile {
+  .d-m-block {
+    display: block;
+  }
+
+  .d-m-none {
+    display: none;
+  }
+
   .d-m-flex {
     display: flex;
   }
@@ -76,6 +99,11 @@
     padding-bottom: $spacing-3;
   }
 
+  .py-m-10 {
+    padding-top: $spacing-10;
+    padding-bottom: $spacing-10;
+  }
+
   .px-m-0 {
     padding-left: 0;
     padding-right: 0;
@@ -83,6 +111,11 @@
 }
 
 // margin
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .my-4 {
   margin-top: $spacing-4;
   margin-bottom: $spacing-4;
@@ -102,6 +135,22 @@
 
 .mb-12 {
   margin-bottom: $spacing-12;
+}
+
+@include pad {
+  .mb-p-6 {
+    margin-bottom: $spacing-6;
+  }
+}
+
+@include mobile {
+  .mb-m-4 {
+    margin-bottom: $spacing-4;
+  }
+
+  .mb-m-6 {
+    margin-bottom: $spacing-6;
+  }
 }
 
 // ---------- width, height
@@ -179,6 +228,10 @@
 }
 
 @include mobile {
+  .h3-m {
+    font-size: $h3;
+  }
+
   .fz-m-1 {
     font-size: $fz-1;
   }
@@ -216,7 +269,15 @@
   color: $dark;
 }
 
+.light {
+  color: $light;
+}
+
 // ---------- background-color
 .bg-primary-100 {
   background-color: $primary-100;
+}
+
+.bg-light {
+  background-color: $light;
 }

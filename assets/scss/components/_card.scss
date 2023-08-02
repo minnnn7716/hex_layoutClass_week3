@@ -1,0 +1,25 @@
+.imgCard {
+  border-radius: 4px;
+  box-shadow: 0 2px 6px #00000030;
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 205px;
+    padding: $spacing-4;
+  }
+
+  h3 {
+    margin-bottom: $spacing-2;
+  }
+
+  p {
+    margin-bottom: $spacing-4;
+  }
+
+  time {
+    font-size: $fz-2;
+    color: $gray;
+  }
+}

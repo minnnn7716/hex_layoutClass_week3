@@ -1,14 +1,37 @@
 .index {
   &-header {
-    height: 767px;
+    height: 787px;
     background-image: url(../images/home-header.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+
+    @include pad {
+      background-image: url(../images/home-header-sm.png);
+    }
+
+    @include mobile {
+      height: 396px;
+    }
   }
 
   &-intro {
     span {
       font-size: 83px;
+    }
+  }
+
+  &-special {
+    background-image: url(../images/index-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include pad {
+      background-image: url(../images/index-bg-md.png);
+    }
+
+    @include mobile {
+      background-image: url(../images/index-bg-sm.png);
     }
   }
 }

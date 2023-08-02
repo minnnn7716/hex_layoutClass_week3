@@ -1,0 +1,26 @@
+.inputGroup {
+  margin-bottom: 16px;
+
+  label,
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+
+    &::placeholder {
+      color: #00000035;
+    }
+  }
+
+  label {
+    margin-bottom: $spacing-2;
+  }
+
+  input,
+  textarea {
+    padding: 6px 12px;
+    line-height: 1.5;
+    background-color: transparent;
+    border: 1px solid $dark;
+  }
+}
