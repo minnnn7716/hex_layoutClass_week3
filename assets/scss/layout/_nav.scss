@@ -2,6 +2,14 @@
   background-color: $primary;
   color: $light;
 
+  a {
+    width: fit-content;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
   .container {
     @include pad {
       padding-left: 36px;

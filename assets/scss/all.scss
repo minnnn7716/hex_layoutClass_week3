@@ -15,16 +15,18 @@
 @import './base/base';
 
 // components
-@import "./components/tittle";
 @import "./components/button";
 @import "./components/card";
-@import "./components/product";
 @import "./components/form";
 @import "./components/hover";
+@import "./components/pagnation";
+@import "./components/product-item";
+@import "./components/tittle";
 
 // layout
 @import './layout/nav';
 @import './layout/footer';
+@import './layout/product-nav';
 
 // pages
 @import './pages/index';

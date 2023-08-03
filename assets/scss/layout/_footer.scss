@@ -70,6 +70,14 @@
       }
     }
   }
+
+  a {
+    width: fit-content;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
   
   @include pad {
     .container {
