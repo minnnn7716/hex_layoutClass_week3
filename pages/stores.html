@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <%- include('./layout/nav'); -%>
+
+    <div class="container">
+      <h2 class="title">門市據點</h2>
+      <div>
+        <label for="area">選擇地點</label>
+        <select name="area" id="area">
+          <option value="台北市">台北市</option>
+          <option value="台中市">台中市</option>
+          <option value="高雄市">高雄市</option>
+        </select>
+      </div>
+      <ul class="row">
+        <li class="imgBtnCard col-4">
+          <img src="../assets/images/store-1.png" alt="台北中山旗艦店">
+          <h3>台北中山旗艦店</h3>
+          <ul class="imgBtnCard-content">
+            <li>
+              <span class="material-icons-outlined">call</span>
+              <p>電話：</p>
+              <a href="tel:(02)000-1234">(02)000-1234</a>
+            </li>
+            <li>
+              <span class="material-icons-outlined">schedule</span>
+              <p>營業時間：</p>
+              <span>10:00-21:00</span>
+            </li>
+            <li>
+              <span class="material-icons-outlined">place</span>
+              <p>地址：</p>
+              <a href="#googleMap">台北市中山區南京東路25巷2-1號</a>
+            </li>
+          </ul>
+          <a href="./store_single.html">詳細資訊</a>
+        </li>
+      </ul>
+    </div>
+
+    <%- include('./layout/footer'); -%>
+      <script type="module" src="../main.js"></script>
+</body>
+
+</html>

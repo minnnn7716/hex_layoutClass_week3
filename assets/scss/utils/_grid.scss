@@ -15,11 +15,31 @@
   }
 }
 
+.container-full {
+  width: 100%;
+}
+
+@include pad {
+  .container-p-full {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@include mobile {
+  .container-m-full {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
 .row {
   display: flex;
   flex-wrap: wrap;
   margin-left: -$spacing-3;
   margin-right: -$spacing-3;
+
   &.noGutter {
     margin-left: 0;
     margin-right: 0;
@@ -37,13 +57,13 @@
 .col-9,
 .col-10,
 .col-11,
-.col-12,
-{
-padding-left: $spacing-3;
-padding-right: $spacing-3;
+.col-12 {
+  padding-left: $spacing-3;
+  padding-right: $spacing-3;
 }
 
 .noGutter {
+
   .col-1,
   .col-2,
   .col-3,
@@ -55,10 +75,9 @@ padding-right: $spacing-3;
   .col-9,
   .col-10,
   .col-11,
-  .col-12,
-  {
-  padding-left: 0;
-  padding-right: 0;
+  .col-12 {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 

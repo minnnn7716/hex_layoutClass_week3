@@ -33,6 +33,14 @@
 }
 
 @include pad {
+  .d-p-block {
+    display: block;
+  }
+
+  .d-p-none {
+    display: none;
+  }
+
   .flex-p-column {
     flex-direction: column;
   }
@@ -141,6 +149,10 @@
   .mb-p-6 {
     margin-bottom: $spacing-6;
   }
+
+  .mb-p-10 {
+    margin-bottom: $spacing-10;
+  }
 }
 
 @include mobile {
@@ -238,6 +250,10 @@
 }
 
 // font-weight
+.fw-medium {
+  font-weight: 500;
+}
+
 .fw-bold {
   font-weight: 700;
 }

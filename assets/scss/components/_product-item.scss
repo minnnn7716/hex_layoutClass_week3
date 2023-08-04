@@ -1,0 +1,45 @@
+.product-item {
+  margin-bottom: $spacing-20;
+
+  @include pad {
+    margin-bottom: 40px;
+  }
+
+  @include mobile {
+    margin-bottom: 24px;
+  }
+
+  &-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: $h3;
+
+    &-price {
+      color: $primary;
+    }
+  }
+
+  &-colors {
+    display: flex;
+
+    div {
+      width: $spacing-6;
+      height: $spacing-6;
+      border-radius: 4px;
+      transition: all ease .3s;
+
+      &:hover {
+        filter: brightness(120%);
+      }
+    }
+
+    &-fisrt {
+      margin-right: $spacing-2;
+      background-color: #5F3E2D;
+    }
+
+    &-second {
+      background-color: #B75929;
+    }
+  }
+}

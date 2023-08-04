@@ -1,0 +1,49 @@
+.product-nav {
+  li {
+    text-align: center;
+  }
+
+  a {
+    width: 100%;
+    padding-top: $spacing-6;
+    padding-bottom: $spacing-4;
+    font-size: $h1;
+    font-family: $font-en;
+    font-weight: 500;
+    border-bottom: 8px solid transparent;
+
+    &:hover {
+      color: $primary;
+    }
+
+    @include pad {
+      font-size: $h3;
+      padding-top: $spacing-4;
+      padding-bottom: $spacing-2;
+    }
+
+    @include mobile {
+      font-size: $fz-1;
+    }
+  }
+}
+
+.product-optical {
+  .opticalLink {
+    border-color: $primary;
+
+    &:hover {
+      color: $dark;
+    }
+  }
+}
+
+.product-sunglasses {
+  .sunglassesLink {
+    border-color: $primary;
+
+    &:hover {
+      color: $dark;
+    }
+  }
+}
