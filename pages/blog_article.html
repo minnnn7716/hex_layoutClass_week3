@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant-TW">
 
 <head>
   <meta charset="UTF-8">
@@ -7,8 +7,102 @@
   <title>Document</title>
 </head>
 
-<body>
+<body class="blogArticle">
+  <%- include('./layout/nav'); -%>
+    <%- include('./layout/blog-nav'); -%>
 
+      <div class="container pt-6 pb-20 pt-p-2 pt-m-4">
+        <div class="blogArticle-header mb-2">
+          <ul class="blogArticle-header-breadcrump mb-2">
+            <li><a href="#">首頁</a></li>
+            <li><a href="#">部落格</a></li>
+            <li><a href="#">特別企劃</a></li>
+            <li><a href="#">情人特別企劃</a></li>
+          </ul>
+          <ul class="d-flex">
+            <li><a class="h3 primary fw-bold font-en me-4 fz-m-1" href="#">#special</a></li>
+            <li><a class="h3 primary fw-bold font-en fz-m-1" href="#">#event</a></li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="blogArticle-main col-8 col-p-9 col-m-12">
+            <h2 class="display-2 h3-m">情人特別企劃</h2>
+            <h3 class="h3 font-en mb-4 fz-m-1">2020 Valentine’s Special</h3>
+            <div class="blogArticle-main-content">
+              <img src="../assets/images/blogpage-1.png" alt="NEEDS CLASSIC 聯名設計款展示形象照">
+              <p>一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。<br>本次拍攝的鏡框款式與 NEEDS CLASSIC
+                聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！</p>
+            </div>
+            <div class="blogArticle-main-content">
+              <img src="../assets/images/blogpage-2.png" alt="NEEDS CLASSIC 聯名設計款">
+              <p>一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。<br>本次拍攝的鏡框款式與 NEEDS CLASSIC
+                聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！</p>
+            </div>
+            <div class="blogArticle-main-content">
+              <img src="../assets/images/blogpage-3.png" alt="NEEDS CLASSIC 聯名設計款">
+              <p>一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。<br>本次拍攝的鏡框款式與 NEEDS CLASSIC
+                聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！</p>
+            </div>
+            <div class="blogArticle-main-content">
+              <img src="../assets/images/blogpage-4.png" alt="NEEDS CLASSIC 聯名設計款展示形象照">
+              <p>2/14(五)-2/20(日)<br>至本店單筆消費滿2980元,
+                就送情人節限定眼鏡盒1個<br>期間優惠還有~~持他牌鏡框更換鏡片<br>薄型非球面鏡片折300元<br>濾藍光鏡片折500元<br>快快帶上另一半<br>讓彼此每一次睜開眼，都被愛的視線包圍!
+              </p>
+            </div>
+          </div>
+          <div class="blogArticle-side col-3 d-m-none">
+            <div class="d-flex align-center primary mb-1">
+              <span class="material-icons-outlined display-2 me-3 pt-1 h3-p me-p-1">
+                label
+              </span>
+              <h2 class="h2 fw-bold fz-p-1">TAGS</h2>
+            </div>
+            <ul class="blogArticle-side-tags d-flex flex-wrap">
+              <li><a href="#">#special</a></li>
+              <li><a href="#">#sale</a></li>
+              <li><a href="#">#new_item</a></li>
+              <li><a href="#">#interview</a></li>
+              <li><a href="#">#trivia</a></li>
+              <li><a href="#">#news</a></li>
+              <li><a href="#">#event</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="blogArticle-footer d-m-none">
+          <div class="row">
+            <div class="col-8 col-p-12">
+              <div class="blogArticle-footer-share d-flex align-center pb-4 mb-6">
+                <p class="font-en fw-bold me-4">Share</p>
+                <ul class="d-flex">
+                  <li class="me-4"><a href="#"><img src="../assets/images/logo-facebook.png" alt="facebook"></a></li>
+                  <li><a href="#"><img src="../assets/images/logo-instagram.png" alt="instagram"></a></li>
+                </ul>
+              </div>
+              <ul class="d-flex justify-between">
+                <li>
+                  <a class="d-flex" href="#">
+                    <span class="material-icons-outlined me-3">
+                      arrow_back
+                    </span>
+                    <p>上一篇：街頭潮人訪問 1</p>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-flex flex-row-reverse" href="#">
+                    <span class="material-icons-outlined">
+                      arrow_forward
+                    </span>
+                    <p class="me-3">下一篇：街頭潮人訪問 2</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <%- include('./layout/footer'); -%>
+        <script type="module" src="../main.js"></script>
 </body>
 
 </html>

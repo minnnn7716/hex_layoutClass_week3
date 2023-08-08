@@ -8,6 +8,10 @@
     &:hover {
       transform: scale(1.05);
     }
+
+    @include mobile {
+      width: 100%;
+    }
   }
 
   .container {
@@ -57,12 +61,12 @@
       border-top: 1px solid $light;
       border-bottom: 1px solid $light;
 
-      
-      &:nth-child(n+1){
+
+      &:nth-child(n+1) {
         border-bottom: none;
       }
 
-      &:nth-child(2n){
+      &:nth-child(2n) {
         border-left: 1px solid $light;
       }
     }

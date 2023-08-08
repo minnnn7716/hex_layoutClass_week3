@@ -1,0 +1,38 @@
+.stores {
+  &-select {
+    padding: 6px 12px;
+    border: 1px solid $gray-200;
+    color: $gray-600;
+  }
+}
+
+.store {
+  &-single-map {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/store-map.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @include pad {
+      height: 414px;
+    }
+
+    @include mobile {
+      height: 208px;
+    }
+  }
+
+  .imgInfoCard {
+    margin-bottom: 0;
+
+    @include pad {
+      margin-bottom: $spacing-6;
+
+      &-body {
+        border-top: 1px solid #00000020;
+      }
+    }
+  }
+}

@@ -1,3 +1,4 @@
+// ---------- container
 .container {
   max-width: $width-pc;
   margin: 0 auto;
@@ -34,6 +35,7 @@
 }
 
 
+// ---------- row, col
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -130,6 +132,42 @@
 }
 
 @include pad {
+
+  .col-p-1,
+  .col-p-2,
+  .col-p-3,
+  .col-p-4,
+  .col-p-5,
+  .col-p-6,
+  .col-p-7,
+  .col-p-8,
+  .col-p-9,
+  .col-p-10,
+  .col-p-11,
+  .col-p-12 {
+    padding-left: $spacing-3;
+    padding-right: $spacing-3;
+  }
+
+  .noGutter {
+
+    .col-p-1,
+    .col-p-2,
+    .col-p-3,
+    .col-p-4,
+    .col-p-5,
+    .col-p-6,
+    .col-p-7,
+    .col-p-8,
+    .col-p-9,
+    .col-p-10,
+    .col-p-11,
+    .col-p-12 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
   .col-p-1 {
     width: 8.33%;
   }
@@ -180,6 +218,42 @@
 }
 
 @include mobile {
+
+  .col-m-1,
+  .col-m-2,
+  .col-m-3,
+  .col-m-4,
+  .col-m-5,
+  .col-m-6,
+  .col-m-7,
+  .col-m-8,
+  .col-m-9,
+  .col-m-10,
+  .col-m-11,
+  .col-m-12 {
+    padding-left: $spacing-3;
+    padding-right: $spacing-3;
+  }
+
+  .noGutter {
+
+    .col-m-1,
+    .col-m-2,
+    .col-m-3,
+    .col-m-4,
+    .col-m-5,
+    .col-m-6,
+    .col-m-7,
+    .col-m-8,
+    .col-m-9,
+    .col-m-10,
+    .col-m-11,
+    .col-m-12 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
   .col-m-1 {
     width: 8.33%;
   }

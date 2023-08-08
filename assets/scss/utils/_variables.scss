@@ -8,7 +8,9 @@ $primary-100: #FBF2F2;
 $primary: #AA0601;
 $primary-900: #650300;
 $gray-100: #d7d1d1;
+$gray-200: #CED4DA;
 $gray: #707070;
+$gray-600: #777C81;
 $gray-900: #555555;
 $dark: #000000;
 $light: #ffffff;
@@ -31,12 +33,16 @@ $fz-1: 16px;
 $fz-2: 14px;
 
 // spacing
-$spacing-1: 4px;
-$spacing-2: 8px;
-$spacing-3: 12px;
-$spacing-4: 16px;
-$spacing-6: 24px;
-$spacing-8: 32px;
-$spacing-10: 40px;
-$spacing-12: 48px;
-$spacing-20: 80px;
+$base-spacing: 16px;
+$spacing-1: $base-spacing * 0.25; // 4px
+$spacing-2: $base-spacing * 0.5; // 8px
+$spacing-3: $base-spacing * 0.75; // 12px
+$spacing-4: $base-spacing; // 16px
+$spacing-6: $base-spacing * 1.5; // 24px
+$spacing-8: $base-spacing * 2; // 32px
+$spacing-10: $base-spacing * 2.5; // 40px
+$spacing-12: $base-spacing * 3; // 48px
+$spacing-14: $base-spacing * 3.5; // 56px
+$spacing-16: $base-spacing * 4; // 64px
+$spacing-20: $base-spacing * 5; // 80px
+$spacing-24: $base-spacing * 6; // 96px
