@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>index</title>
+  <title>眼鏡電商｜首頁</title>
+  <%- include('./layout/head'); -%>
 </head>
 
 <body>
@@ -164,7 +165,7 @@
         <div class="row justify-center">
           <div class="col-6 col-p-10 col-m-12">
             <h2 class="display-2 h3-m fw-bold text-center primary-900 mb-12 mb-m-6">聯絡我們</h2>
-            <p class="mb-6">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+            <p class="h4 mb-6">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
             <form>
               <div class="inputGroup">
                 <label for="name">姓名</label>
@@ -182,8 +183,8 @@
                 <label for="opinion">意見反應</label>
                 <textarea id="opinion" rows="5" placeholder="請輸入您的意見"></textarea>
               </div>
-              <div class="mb-12 mb-m-6">
-                <input type="checkbox">
+              <div class="d-flex mb-12 mb-m-6">
+                <input class="inputGroup-checkInput me-2" type="checkbox" id="check">
                 <label for="check">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
               </div>
               <div class="row justify-center">

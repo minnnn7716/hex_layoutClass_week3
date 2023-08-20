@@ -23,4 +23,11 @@
     background-color: transparent;
     border: 1px solid $dark;
   }
+
+  &-checkInput {
+    width: 20px;
+    height: 20px;
+    border-width: 2px;
+    accent-color: $primary;
+  }
 }

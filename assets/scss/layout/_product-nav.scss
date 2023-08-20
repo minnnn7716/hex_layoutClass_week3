@@ -26,20 +26,8 @@
       font-size: $fz-1;
     }
   }
-}
 
-.product-optical {
-  .opticalLink {
-    border-color: $primary;
-
-    &:hover {
-      color: $dark;
-    }
-  }
-}
-
-.product-sunglasses {
-  .sunglassesLink {
+  .active {
     border-color: $primary;
 
     &:hover {
